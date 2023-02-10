@@ -5,4 +5,10 @@ public class Dye {
         this.dye = dye;
     }
 
+    @Override
+    public String toString() {
+        return "Dye{" +
+                "dye='" + dye + '\'' +
+                '}';
+    }
 }

@@ -7,7 +7,7 @@ Main класстан sub класстын объектисин түзүп,
 public class Main {
     public static void main(String[] args) {
 
-        Color color = new Color("Red", "Emal'", "Chemical ");
+        Color color = new Color("red", "emal'", "chemical ");
         System.out.println(color);
 
         color.colorPaint();

@@ -18,10 +18,6 @@ public class Color extends Dye {
 
     @Override
     public String toString() {
-        return "Color{" +
-                "name='" + name + '\'' +
-                ", small='" + small + '\'' +
-                ", dye='" + dye + '\'' +
-                '}';
+        return "Dye " + "name: " + name + " small: " + small + "color: " + dye;
     }
 }
